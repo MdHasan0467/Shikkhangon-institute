@@ -9,3 +9,33 @@
 
 
 
+.fa-arrow-right {
+  position: relative;
+  animation: moveit 2s linear 0s infinite alternate;
+}
+
+@keyframes moveit {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 15%;
+  }
+}
+.submit-btn{
+  transition: 0.5s;
+  border: 1px solid#289BDE;
+}
+.submit-btn:hover{
+  background: #289BDE;
+  color: #f1f3ff;
+}
+.close-btn{
+  transition: 0.5s;
+  border: 1px solid#333;
+}
+.close-btn:hover{
+  background: #333;
+  color: #f1f3ff;
+}
