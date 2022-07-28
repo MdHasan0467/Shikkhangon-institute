@@ -16,6 +16,10 @@
   background: #289BDE;
 }
 
+.navbar-nav a:hover{
+  text-decoration: underline;
+}
+
   /* Start For errow sign */
 .fa-arrow-right {
   position: relative;
