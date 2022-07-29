@@ -59,6 +59,12 @@
   color: #f1f3ff;
 }
 
+.carousel-controler{
+  max-width: 50px;
+  max-height: 50px;
+  width: 50px;
+}
+
 /* Trusted section */
 .companys img{
   width: 150px;
